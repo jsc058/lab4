@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="/css/introHCI.css" rel="stylesheet">
+	<link href="/css/pages.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,21 +20,18 @@
 
 <body>
 	<div class="container">
+		<a href="profile/" id="viewProfile" class="thumbnail">
+			<img src="images/photo.png" id="photo" alt="photo" class="img">
+			<center><p id="profileP">View Profile</p></center>
+		</a>
+
+		 <br>
+
+
+	 </br>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div class="jumbotron">
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-		</div>
 
-		<o1>
-			{{#each projects}}
-			<li><a href="#project{{id}}">{{name}}</a></li>
-			{{/each}}
-		</o1>
-
-
-		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
@@ -42,10 +39,15 @@
 			<div class="project" id="{{id}}">
 				<a href="project/{{name}}" class="thumbnail">
 					<img src="images/{{image}}" class="img">
-					<p>{{name}}</p>
+					<center><p>{{name}}</p></center>
 				</a>
 			</div>
 		{{/each}}
+
+		<br>
+	</br>
+
+		<a href="/login" id="logout"><center>LOG OUT</center></a>
 
 	</div>
 

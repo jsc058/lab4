@@ -6,33 +6,29 @@
 exports.view = function(req, res){
   res.render('index', {
     'projects': [
-      { 'name': 'Waiting in Line',
-        'image': 'lorempixel.people.1.jpeg',
+      { 'name': 'Messages',
+        'image': '../images/message.png',
         'id':'project1'
       },
-      { 'name': 'Needfinding',
-        'image': 'lorempixel.city.1.jpeg',
+      { 'name': 'Discussion',
+        'image': '../images/bubble.png',
         'id': 'project2'
       },
-      { 'name': 'Heuristic Evaluation',
-        'image': 'lorempixel.abstract.1.jpeg',
+      { 'name': 'Contacts',
+        'image': '../images/contacts.png',
         'id': 'project4'
       },
-      { 'name': 'Visualization',
-        'image': 'lorempixel.abstract.8.jpeg',
+      { 'name': 'Settings',
+        'image': '../images/settings.png',
         'id': 'project5'
       },
-      { 'name': 'Social design',
-        'image': 'lorempixel.people.2.jpeg',
+      { 'name': 'FAQs',
+        'image': '../images/help.png',
         'id': 'project6'
       },
-      { 'name': 'Gestural interaction',
-        'image': 'lorempixel.technics.2.jpeg',
+      { 'name': 'Support Resources',
+        'image': '../images/phone.png',
         'id': 'project7'
-      },
-      { 'name': 'Design tools',
-        'image': 'lorempixel.city.2.jpeg',
-        'id': 'project8'
       }
     ]
   });

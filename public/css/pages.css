@@ -1,0 +1,115 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+.div {
+    overflow: scroll;
+}
+
+.html {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top:0px;
+	left: 0px;
+}
+
+#viewProfile {
+	position: relative;
+	height: 80px;
+	margin: auto;
+}
+
+#profileP {
+	color: black;
+	font-size: x-large;
+	height: 50px;
+	position: relative;
+	top: -40px;
+}
+
+#photo {
+	max-height: 60px;
+	max-width: 60px;
+	position: relative;
+	padding: 5px;
+	top: 10px;
+	left: -120px;
+}
+
+.thumbnail {
+	position: relative;
+	height: 75px;
+	margin: 0;
+}
+
+.project {
+	height: 100%;
+	width: 100%;
+}
+
+.thumbnail p {
+	color: black;
+	font-size: large;
+	height: 50px;
+	position: relative;
+	top: -30px;
+}
+
+.thumbnail img {
+	max-height: 50px;
+	max-width: 50px;
+	position: relative;
+	padding: 5px;
+	top: 10px;
+	left: -120px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+a:visited {
+    color: black;
+		text-decoration: none;
+		font-size: 30px;
+}
+
+#logout {
+	position: relative;
+	top: -20px;
+}
+
+/*.jumbotron {
+	position: relative;
+	background: none;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/lorempixel.jumbotron.jpeg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}*/
