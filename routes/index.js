@@ -25,10 +25,6 @@ exports.view = function(req, res){
       { 'name': 'FAQs',
         'image': '../images/help.png',
         'id': 'project6'
-      },
-      { 'name': 'Support Resources',
-        'image': '../images/phone.png',
-        'id': 'project7'
       }
     ]
   });

@@ -10,4 +10,10 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// add any functionality and listeners you want here
+	$('.backimg').click(back); /* call back function */
+}
+
+/* Function to go back */
+function back() {
+	window.history.back();
 }

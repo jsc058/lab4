@@ -9,8 +9,16 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
-var project = require('./routes/project');
 var login = require('./routes/login');
+var contact = require('./routes/Contacts');
+var discussion = require('./routes/Discussion');
+var faq = require('./routes/FAQs');
+var messages = require('./routes/Messages');
+var profile = require('./routes/profile');
+var settings = require('./routes/Settings');
+var support = require('./routes/Support');
+var posts = require('./routes/viewPosts');
+var indPosts = require('./routes/individualPosts');
 // Example route
 // var user = require('./routes/user');
 
@@ -38,8 +46,16 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/project/:name', project.viewProject);
 app.get('/login', login.viewLogin);
+app.get('/Contacts', contact.viewContact);
+app.get('/Discussion', discussion.viewDiscussion);
+app.get('/FAQs', faq.viewFAQ);
+app.get('/Messages', messages.viewMessage);
+app.get('/profile', profile.viewProfile);
+app.get('/Settings', settings.viewSettings);
+app.get('/Support', support.viewSupport);
+app.get('/viewPosts', posts.viewPosts);
+app.get('/individualPosts', indPosts.viewIndPosts);
 // Example route
 // app.get('/users', user.list);
 

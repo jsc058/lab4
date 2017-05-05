@@ -17,6 +17,13 @@
 	height: 100%;
 }
 
+/*body {
+	height:100%;
+	background: url("../images/background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}*/
+
 .container {
 	width: 100%;
 	margin: 0px;
@@ -93,23 +100,209 @@ a:visited {
 	top: -20px;
 }
 
-/*.jumbotron {
+.jumbotron {
 	position: relative;
-	background: none;
+	background: url("../images/background.jpg");
+	height: 90px;
+	margin-bottom: 15px;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
+/* Profile CSS */
+.backimg {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	padding: 10px;
+	height: 70px;
+	width: 70px;
 }
 
-.jumbotron p {
-     color: #6e6e6e;
-}*/
+.homeimg {
+	/*float: right;*/
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	padding: 10px;
+	height: 70px;
+	width: 70px;
+}
+
+.pencilimg1 {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 55%;
+	top: 33%;
+}
+
+#profileHead {
+	/*height: 50px;*/
+	font-size: 30px;
+	font-weight: 400;
+	top: 15px;
+}
+
+#name {
+	font-size: 45px;
+	margin: 0px;
+}
+
+#location {
+	font-size: 25px;
+}
+
+#bio {
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+.pencilimg2 {
+	height: 30px;
+	width: 30px;
+}
+
+#paragraph {
+	font-size: 15px;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+#viewPosts {
+	font-size: 20px;
+	position: absolute;
+	right: 15px;
+	bottom: 110px;
+	/*padding-left: 230px;*/
+}
+
+.messageimg {
+	position: absolute;
+	bottom: 50px;
+	right: 55px;
+	height: 60px;
+	width: 60px;
+}
+
+.contactimg {
+	position: absolute;
+	bottom: 45px;
+	left: 55px;
+	height: 60px;
+	width: 60px;
+}
+
+#addContact {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	font-size: 20px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	font-size: 20px;
+}
+
+/* View Posts */
+#indexJumboPost {
+	margin-bottom: 0px;
+}
+
+.projectPost {
+	height: 100%;
+	width: 100%;
+}
+
+#thumbnailPost {
+	position: relative;
+	height: 100px;
+}
+
+#title {
+	position: absolute;
+	font-size: 30px;
+	font-weight: 200;
+	top:10px;
+	left: 30px;
+	right: 150px;
+}
+
+#blueC {
+	position: relative;
+	left: 70px;
+}
+
+#centerBlue {
+	font-size: 13px;
+	position: absolute;
+	top: 30%;
+	left: 66%;
+}
+
+#greenC {
+	position: relative;
+	left: 70px;
+	top: 0px;
+}
+
+#centerGreen {
+	font-size: 13px;
+	position: absolute;
+	top: 65%;
+	left: 67%;
+}
+
+#replies {
+	position: absolute;
+	left: 280px;
+	top: 20px;
+}
+
+#hugs {
+	position: absolute;
+	left: 280px;
+	top: 60px;
+}
+
+#carrot {
+	position: absolute;
+	left: 340px;
+	top: 30px;
+	font-size: 30px;
+}
+
+/* Individual Posts */
+.profileimgInd {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 5%;
+	top: 17%;
+}
+
+#name2 {
+	font-size: 20px;
+	font-weight: 350;
+	position: absolute;
+	left: 25%;
+	top: 17%;
+}
+
+#date2 {
+	font-size: 15px;
+	font-weight: 325;
+	position: absolute;
+	left: 37%;
+	top: 18%;
+}
+
+#heading {
+	font-size: 27px;
+	font-weight: 450;
+	position: absolute;
+	left: 25%;
+	top: 22%;
+	line-height: 90%;
+}

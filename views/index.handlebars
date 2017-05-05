@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>
+	<title>Home Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -37,12 +37,18 @@
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		{{#each projects}}
 			<div class="project" id="{{id}}">
-				<a href="project/{{name}}" class="thumbnail">
+				<a href="/{{name}}" class="thumbnail">
 					<img src="images/{{image}}" class="img">
 					<center><p>{{name}}</p></center>
 				</a>
 			</div>
 		{{/each}}
+		<div class="project" id="project7">
+			<a href="/Support" class="thumbnail">
+				<img src="../images/phone.png" class="img">
+				<center><p>Support Resources</p></center>
+			</a>
+		</div>
 
 		<br>
 	</br>
