@@ -19,6 +19,7 @@ var settings = require('./routes/Settings');
 var support = require('./routes/Support');
 var posts = require('./routes/viewPosts');
 var indPosts = require('./routes/individualPosts');
+// var favorites = require('./routes/favorites')
 // Example route
 // var user = require('./routes/user');
 
@@ -56,6 +57,8 @@ app.get('/Settings', settings.viewSettings);
 app.get('/Support', support.viewSupport);
 app.get('/viewPosts', posts.viewPosts);
 app.get('/individualPosts', indPosts.viewIndPosts);
+// app.get('/favorites', favorites.viewFavorites);
+
 // Example route
 // app.get('/users', user.list);
 
