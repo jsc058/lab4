@@ -19,7 +19,14 @@ var settings = require('./routes/Settings');
 var support = require('./routes/Support');
 var posts = require('./routes/viewPosts');
 var indPosts = require('./routes/individualPosts');
-// var favorites = require('./routes/favorites')
+var favorites = require('./routes/favorites');
+var feedback = require('./routes/feedback');
+var other = require('./routes/other');
+var recent = require('./routes/recent');
+var safety = require('./routes/safety');
+var search = require('./routes/search');
+var trending = require('./routes/trending');
+var wandering = require('./routes/wandering');
 // Example route
 // var user = require('./routes/user');
 
@@ -57,7 +64,14 @@ app.get('/Settings', settings.viewSettings);
 app.get('/Support', support.viewSupport);
 app.get('/viewPosts', posts.viewPosts);
 app.get('/individualPosts', indPosts.viewIndPosts);
-// app.get('/favorites', favorites.viewFavorites);
+app.get('/favorites', favorites.viewFavorites);
+app.get('/feedback', feedback.viewFeedback);
+app.get('/other', other.viewOther);
+app.get('/recent', recent.viewRecent);
+app.get('/safety', safety.viewSafety);
+app.get('/search', search.viewSearch);
+app.get('/trending', trending.viewTrending);
+app.get('/wandering', favorites.viewWandering);
 
 // Example route
 // app.get('/users', user.list);
