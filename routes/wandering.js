@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewWandering = function(req, res){
-  res.render('Settings', data);
+  res.render('wandering', data);
 };

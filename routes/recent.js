@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewRecent = function(req, res){
-  res.render('Settings', data);
+  res.render('recent', data);
 };

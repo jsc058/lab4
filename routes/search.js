@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewSearch = function(req, res){
-  res.render('Settings', data);
+  res.render('search', data);
 };
