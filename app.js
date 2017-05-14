@@ -71,7 +71,7 @@ app.get('/recent', recent.viewRecent);
 app.get('/safety', safety.viewSafety);
 app.get('/search', search.viewSearch);
 app.get('/trending', trending.viewTrending);
-app.get('/wandering', favorites.viewWandering);
+app.get('/wandering', wandering.viewWandering);
 
 // Example route
 // app.get('/users', user.list);
