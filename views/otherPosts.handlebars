@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>
+	<title>Profile</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -22,21 +22,35 @@
 	<div class="jumbotron" id="indexJumboPost">
 		<a href="/"><img src="../images/back.png" alt="Back image" class="backimg"></a>
 		<a href="/"><img src="../images/home.png" alt="Home image" class="homeimg"></a>
-		<center><p id="profileHead">Messages</p></center>
+		<!-- <center><p id="profileHead">My Posts</p></center> -->
 	</div>
 
 	<div class="container">
-		{{#each messagesList}}
-			<div class="projectM" id="{{name}}">
-				<a href="messenger/{{name}}" class="thumbnail" id="thumbnailM">
-					<img src="{{image}}" class="imgM" id="imgM">
-					<p id="nameM">{{name}}</p>
-					<p id="timeM">{{time}}</p>
-					<p id="messageM">{{message}}</p>
-				</a>
-			</div>
-		{{/each}}
+		<img src="../images/photo.png" alt="Profile image" class="profileimgInd">
+		<p id="name2">Tom</p>
+		<p id="date2">{{date}}</p>
+		<p id="heading">{{title}}</p>
+
+	<div class="post">
+		<p id="myMessage"> {{message}} </p>
+		<img src="../images/heart.png" alt="Heart" class="postIcons" id="heart">
+		<p id="hugText">Send a Hug</p>
+		<img src="../images/star.png" alt="Star" class="postIcons" id="star">
+		<p id="saveText">Save</p>
+		<img src="../images/report.png" alt="Report" class="postIcons" id="report">
+		<p id="reportText">Report</p>
 	</div>
+
+	<div class="replies">
+		<p id="reply"> Replies: {{repliesNum}}</p>
+		<img src="../images/photo.png" alt="Profile image" class="replyProfile">
+		<p id="theirName">{{name}}</p>
+		<p id="theirMsg">{{theirMsg}}</p>
+		<!-- <input type="text" class="form-control" id="replyM" placeholder="Write a reply..." name="reply"> -->
+		<!-- <a href="#" id="submitBtn" class="btn btn-default" value="Send" style="float:right">Send</a> -->
+	</div>
+
+</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>

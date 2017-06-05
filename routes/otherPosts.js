@@ -5,7 +5,7 @@ var data = require('../myPosts.json');
  * GET home page.
  */
 
-exports.viewIndPosts = function(req, res){
+exports.viewOtherPosts = function(req, res){
   console.log(req.params.title);
   var myPosts = data.myPosts[0];
   var replies = myPosts.repliesMsg[0];

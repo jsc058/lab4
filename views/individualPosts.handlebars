@@ -27,9 +27,30 @@
 
 	<div class="container">
 		<img src="../images/photo.png" alt="Profile image" class="profileimgInd">
-		<p id="name2">Tom</p><p id="date2">4/9/17</p>
-		<p id="heading"> How to prevent wondering?</p>
+		<p id="name2">Tom</p>
+		<p id="date2">{{date}}</p>
+		<p id="heading">{{title}}</p>
+
+	<div class="post">
+		<p id="myMessage"> {{message}} </p>
+		<img src="../images/heart.png" alt="Heart" class="postIcons" id="heart">
+		<p id="hugText">Hugs: 7</p>
+		<img src="../images/star.png" alt="Star" class="postIcons" id="star">
+		<p id="saveText">Save</p>
+		<img src="../images/report.png" alt="Report" class="postIcons" id="report">
+		<p id="reportText">Report</p>
 	</div>
+
+	<div class="replies">
+		<p id="reply"> Replies: {{repliesNum}}</p>
+		<img src="../images/photo.png" alt="Profile image" class="replyProfile">
+		<p id="theirName">{{name}}</p>
+		<p id="theirMsg">{{theirMsg}}</p>
+		<!-- <input type="text" class="form-control" id="replyM" placeholder="Write a reply..." name="reply"> -->
+		<!-- <a href="#" id="submitBtn" class="btn btn-default" value="Send" style="float:right">Send</a> -->
+	</div>
+
+</div>
 
 
 
