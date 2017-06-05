@@ -10,11 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// add any functionality and listeners you want here
-	$('.backimg').click(back); /* call back function */
-	console.log("introHCI.js");
-}
-
-/* Function to go back */
-function back() {
-	window.history.back();
+	$('#message').keypress(function(e) {
+	if (e.which == 13) {
+		sendMessage(e);
+	}
+});
 }

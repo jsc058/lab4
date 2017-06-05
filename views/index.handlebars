@@ -37,15 +37,15 @@
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		{{#each projects}}
 			<div class="project" id="{{id}}">
-				<a href="/{{name}}" class="thumbnail">
-					<img src="images/{{image}}" class="img">
+				<a href="/{{name}}" class="thumbnail" id="thumbIndex">
+					<img src="images/{{image}}" class="img" id="imgIndex">
 					<center><p>{{name}}</p></center>
 				</a>
 			</div>
 		{{/each}}
 		<div class="project" id="project7">
-			<a href="/Support" class="thumbnail">
-				<img src="../images/phone.png" class="img">
+			<a href="/Support" class="thumbnail" id="thumbIndex">
+				<img src="../images/phone.png" class="img" id="imgIndex">
 				<center><p>Support Resources</p></center>
 			</a>
 		</div>

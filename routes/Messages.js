@@ -1,4 +1,4 @@
-var data = require('../data.json');
+var data = require('../messages.json');
 
 /*
  * GET home page.
