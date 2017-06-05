@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewSafety = function(req, res){
-  res.render('Settings', data);
+  res.render('safety', data);
 };

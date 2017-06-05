@@ -1,12 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 .volbuttonON{
   width: 35px;
   height:30px;
 position: relative;
   left: 51%;
   top:85px;
-
-
 }
+
+
 .volbuttonOFF{
   width: 37px;
   height:37px;
@@ -15,29 +20,266 @@ position: relative;
   top:120px;
 }
 
+
+.boxes{
+  width:auto;
+  border-top: 0.5px solid grey;
+}
+
+
 .labels{
+  width: 300px;
   font-family: sans-serif;
   font-size: 27px;
   padding: 12px 12px 12px 40px;
-  border-top: 0.5px solid grey
 }
+
+
 .notification{
   font-family: sans-serif;
   font-size: 27px;
   padding-left:40px;
 }
 
+.textSize{
+  display: block;
+  position: relative;
+  width:250px;
+  height:100px;
+  object-fit: cover;
+  margin: auto;
+}
+
 .onOff{
   font-size: 20px;
   padding-left: 80px;
 }
-#button{
-  padding:13px;
+
+.smalltxt{
+  position:relative;
+padding: 2px 30px;
+text-align: center;
+}
+
+/* here is the favorites section*/
+.star{
+  position: relative;
+  display: block;
+  margin: auto;
+  width:150px;
+  height:150px;
+  top:20px;
+}
+.circle{
+  margin-bottom: 40px;
+}
+
+.threads{
+  position: relative;
+  width:100%;
+  height:75px;
+  border-top: 0.5px solid grey;
+}
+
+h1{
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 24px;
+  position: relative;
+  top:2px;
+}
+.nameDate{
+  position: relative;
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 16px;
+  margin: 0px 8px 0px 0px;
+  bottom: 5px;
+}
+/*I am not sure how the relative or fixed will change if you change devices
+*/
+#languageBox{
+  width: 150px;
+  font-family: sans-serif;
+  font-size: 27px;
+  padding: 12px 12px 12px 40px;
+  border: 1px grey
+}
+
+#krypto-carrot{
+  position: absolute;
+  top: 485px;
+  left: 80%;
+  width:70px;
+  height: 70px;
+  color: #DCDCDC;
+}
+
+#krypto-carrot2{
+  position: absolute;
+  top: 560px;
+  left: 80%;
+  width:70px;
+  height: 70px;
+  color: #DCDCDC;
+}
+
+#button1{
+  width: 100px;
+  padding:8px;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
   border-radius: 10px;
   border-width: .5px;
-  border-color: grey;
+  border-color: black;
+  margin:0px 60px;
   background-color: #DCDCDC;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 0px;
+  display:inline-block;
+}
+
+/* DONT KNOW HOW TO MOVE TO THE MIDDLE */
+
+#button{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+  padding: 5px 5px 5px 20px;
+  width: 300px;
+  background-color: #DCDCDC;
+  margin:auto;
+  margin-top: 10px;
+}
+
+
+/* FEEDBACK SECTION */
+#feedbackText{
+  position: relative;
+  font-size: 20px;
+text-align: center;
+padding:20px 25px 0px 25px;
+}
+
+.feedbackBox{
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 10px;
+  width:320px;
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid #c3c6cc
+}
+
+#enterText{
+position: relative;
+top: auto;
+ color: #c3c6cc
+}
+
+#ratingContainer{
+  padding-top: 20px;
+}
+.starRating{
+  position: relative;
+  width: 230px;
+padding: 5px 75px 5px 40px;
+
+}
+
+#send{
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px 10px;
+  background-color: #DCDCDC;
+  border-radius: 2px;
+  border: .5px solid black;
+}
+
+/* SEARCH PAGE */
+.searchBar{
+  width: 350px;
+  height: 55px;
+  margin: 20px auto 0px auto;
+  border: 0.5px solid #000;
+}
+.magcrop{
+position: relative;
+/*border: 1px solid #000;*/
+top:2.5px;
+margin-left:10px;
+margin-right: 5px;
+  height:28px;
+  width:28px;
+  overflow: hidden;
+}
+
+.dropDownList{
+  display: block;
+  width: 350px;
+  height:175px;
+  overflow: scroll;
+  border-width:0px 0.5px 0.5px 0.5px;
+  border-color: #000;
+  border-style: solid;
+  margin: auto;
+}
+
+.searchText{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.possibleTopic{
+    /*border: 1px solid #000;*/
+    margin: -7px;
+    padding: 0px;
+}
+
+.searchimg{
+  width: 53px;
+  margin-left: -10px;
+  margin-top: -12px;
+}
+
+.searchButton{
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 330px;
+  height: 45px;
+
+  background-color: #DCDCDC;
+  margin:auto;
+}
+
+h2{
+  font-size: 24px;
+  padding: 12px 0px
+}
+
+.keyboard{
+  position: absolute;
+width:100%;
+bottom: 0%;
+}
+
+.keys{
+  position: absolute;
+ bottom: 0%;
+  width:100%;
+  height:220px;
+  overflow: hidden;
 }

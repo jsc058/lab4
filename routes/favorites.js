@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewFavorites = function(req, res){
-  res.render('Settings', data);
+  res.render('favorites', data);
 };
