@@ -61,7 +61,7 @@ body {
 
 .thumbnail {
 	position: relative;
-	max-height: 90px;
+	max-height: 95px;
 	margin: 0;
 }
 
@@ -506,18 +506,25 @@ div.panel.show {
   -moz-border-radius: 80%;
   border-radius: 90%;
   border: 1px solid rgba(0,0,30,0.8);
+	margin: 3px;
 }
 
 /**** MESSENGER ****/
+#viewTime {
+	text-align: center;
+	font-size: 110%;
+}
 #one {
 	position: absolute;
-	width: 270%;
-	left: 65%;
+	width: 60%;
+	left: 15%;
 	border: 1px solid;
 	border-color: #d7dbe2;
+	background: #d7dbe2;
 	border-radius: 5px;
 	font-size: 120%;
 	padding: 5px;
+	top: 20%;
 }
 
 #zero {
@@ -526,6 +533,7 @@ div.panel.show {
 	right: 65%;
 	border: 1px solid;
 	border-color: #206ce8;
+	background: #206ce8;
 	border-radius: 5px;
 	font-size: 120%;
 	padding: 5px;
