@@ -64,3 +64,57 @@ a:visited {
   margin-top: -12px;
   margin-right: -15px;
 }
+
+.trendimg{
+  width: 100px;
+  margin: 0 30px 25px 40px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 10px;
+  color: red;
+}
+
+.clockimg {
+  width: 100px;
+  margin: 0 30px 25px 50px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 10px;
+  color: green;
+}
+
+.walkimg {
+  width: 100px;
+  margin: 0 30px 25px 40px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 10px;
+  color: brown;
+}
+
+.medimg {
+  width: 100px;
+  margin: 0 30px 25px 50px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 15px;
+  color: lightblue;
+}
+
+.supportimg {
+  width: 100px;
+  margin: 0 30px 25px 40px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 10px;
+  color: yellow;
+}
+
+.otherimg {
+  width: 100px;
+  margin: 0 30px 25px 50px;
+  border: 0.5px solid;
+  border-radius: 100%;
+  padding: 10px;
+  color: grey;
+}

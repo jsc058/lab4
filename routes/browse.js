@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 
 exports.viewBrowse = function(req, res){
-  res.render('trending', data);
+  res.render('browse', data);
 };
