@@ -205,8 +205,8 @@ a:visited {
 }
 
 .contactimg {
-	position: fixed;
-	top: 75%;
+	position: relative;
+	/*top: 75%;*/
 	left: 20%;
 	height: 60px;
 	width: 60px;
