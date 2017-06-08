@@ -12,11 +12,8 @@
 .div {
     overflow: scroll;
 }
-body {
-	overflow: scroll;
-}
+
 html {
-	height: 100%;
 	overflow: scroll;
 }
 
@@ -178,8 +175,8 @@ a:visited {
 }
 
 .pencilimg2 {
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 }
 
 #paragraph {
@@ -191,38 +188,38 @@ a:visited {
 #viewPosts {
 	font-size: 20px;
 	position: absolute;
-	right: 15px;
-	bottom: 110px;
+	right: 5%;
+	margin: 0;
 	/*padding-left: 230px;*/
 }
 
 .messageimg {
 	position: absolute;
-	bottom: 50px;
-	right: 55px;
+	top: 75%;
+	right: 30%;
 	height: 60px;
 	width: 60px;
 }
 
 .contactimg {
 	position: absolute;
-	bottom: 45px;
-	left: 55px;
+	top: 75%;
+	left: 20%;
 	height: 60px;
 	width: 60px;
 }
 
 #addContact {
 	position: absolute;
-	bottom: 10px;
-	left: 30px;
+	top: 84%;
+	left: 14%;
 	font-size: 20px;
 }
 
 #sendMessage {
 	position: absolute;
-	bottom: 10px;
-	right: 30px;
+	top: 84%;
+	right: 20%;
 	font-size: 20px;
 }
 
@@ -302,7 +299,7 @@ a:visited {
 .postIcons {
 	position: absolute;
 	max-height: 5%;
-	top: 57%;
+	top: 59%;
 }
 
 #heart {
@@ -322,14 +319,14 @@ a:visited {
 
 #hugText {
 	position: absolute;
-	top: 62%;
+	top: 64%;
 	left: 10%;
 	font-size: 110%;
 }
 
 #saveText {
 	position: absolute;
-	top: 62%;
+	top: 64%;
 	left: 40%;
 	font-size: 110%;
 }
