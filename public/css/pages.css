@@ -250,7 +250,6 @@ a:visited {
 #thumbnailPost {
 	position: relative;
 	height: 100px;
-	min-height: 100px;
 }
 
 #title {
@@ -280,13 +279,13 @@ a:visited {
 	position: relative;
 	left: 70px;
 	height: 57%;
-	top: -7px;
+	top: -8px;
 }
 
 #centerGreen {
 	font-size: 15px;
 	position: absolute;
-	top: 59%;
+	top: 58%;
 	left: 67%;
 }
 
