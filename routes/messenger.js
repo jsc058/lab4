@@ -19,10 +19,11 @@ exports.viewMessenger = function(req, res){
 
   console.log(notify);
   console.log(messages[index].name);
+  console.log(img);
   res.render('messenger', {
     'name': name,
     'message': messages[index].message,
-    'image': image,
+    'image': img,
     'notify': notify
   });
 };

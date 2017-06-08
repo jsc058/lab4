@@ -1,0 +1,78 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+body {
+	font-family: Georgia;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+    color: white;
+		text-decoration: none;
+}
+
+.dBox {
+	background-color: white;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	line-height: 300%;
+	font-weight: 500;
+	font-family: Georgia;
+}
+
+/*.jumbotron:after {
+     content:"";
+     background: url("../images/lorempixel.jumbotron.jpeg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+.project a {
+     text-align: center;
+}
+
+#appLogo {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 100px;
+}*/
+
+html {
+	height:100%;
+}
+
+body {
+	height:100%;
+	background: url("../images/background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: Georgia;
+}

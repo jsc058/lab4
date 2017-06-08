@@ -12,7 +12,7 @@ exports.viewOtherPosts = function(req, res){
 
   console.log(data.myPosts[0].repliesMsg[0]);
 
-  res.render('individualPosts', {
+  res.render('otherPosts', {
     'date': myPosts.date,
     'title': req.params.title,
     'message': myPosts.message,

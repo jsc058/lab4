@@ -27,11 +27,19 @@
 
 	<div class="container">
 		<p id="viewTime">4:18 PM</p>
-		<img src="{{image}}" class="imgM" id="imgM">
-		<p id="{{notify}}">{{message}}</p>
+		<img src="{{image}}" class="imgM" id="imgV">
+		<p class = "paragraph" id="{{notify}}">{{message}}</p>
+		<p id="sentMsg"></p>
+		<div class="sendBox">
+			<input type="text" class="form-control" id="message" placeholder="Message" name="message">
+		</div>
 	</div>
+
+
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/introHCI.js"></script>
+	<script src="/js/message.js"></script>
 </body>
 </html>
