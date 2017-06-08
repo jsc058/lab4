@@ -12,12 +12,14 @@
 .div {
     overflow: scroll;
 }
-
-.html {
+body {
+	overflow: scroll;
+}
+html {
 	height: 100%;
 	overflow: scroll;
-	overflow-y: scroll;
 }
+
 
 /*body {
 	height:100%;
