@@ -193,7 +193,9 @@ a:visited {
 	margin: 0;
 	/*padding-left: 230px;*/
 }
-
+.under {
+	height: 150px;
+}
 .messageimg {
 	position: absolute;
 	top: 75%;
