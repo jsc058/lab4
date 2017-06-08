@@ -64,6 +64,7 @@ body {
 .thumbnail {
 	position: relative;
 	max-height: 95px;
+	min-height: 95px;
 	margin: 0;
 }
 
@@ -452,8 +453,8 @@ a:visited {
 	height: 35px;
 	font-size: 20px;
 	position: absolute;
-	/*bottom: 0;*/
-	top: 0%;
+	bottom: 0;
+	top: 100px;
 }
 
 #myReply {
@@ -560,6 +561,10 @@ div.panel.show {
 	right: 7%;
 }
 
+#messageM.yes {
+	font-weight: bold;
+}
+
 #messageM {
 	position: absolute;
 	top: 48%;
@@ -572,6 +577,7 @@ div.panel.show {
 	width: 22%;
 	height: 25%;
 	top: 5%;
+	min-height: 79px;
 }
 
 .imgM {
@@ -584,7 +590,7 @@ div.panel.show {
 
 .notif {
 	top: 10%;
-	right: 10%
+	right: 10%;
 	height: 10px;
 	width: 10px;
 	z-index: -1;

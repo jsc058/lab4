@@ -8,6 +8,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/pages.css" rel="stylesheet">
+	<link href="/css/fixHeight.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,10 +34,12 @@
 
 	<div class="post">
 		<p id="myMessage"> {{message}} </p>
-		<img src="../images/heart.png" alt="Heart" class="postIcons" id="heart">
-		<p id="hugText">Hugs: 7</p>
-		<img src="../images/star.png" alt="Star" class="postIcons" id="star">
-		<p id="saveText">Save: 5</p>
+			<div class="imagePosts">
+				<img src="../images/heart.png" alt="Heart" class="postIcons" id="heart">
+				<p id="hugText">Hugs: 7</p>
+				<img src="../images/star.png" alt="Star" class="postIcons" id="star">
+				<p id="saveText">Save: 5</p>
+		</div>
 	</div>
 
 	<div class="replies">
