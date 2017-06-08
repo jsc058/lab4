@@ -2,8 +2,8 @@
 
 	"messagesList":
 	[
-		{"name": "John Doe", "time":"4:01 PM", "image": "http://www.northerntrust.hscni.net/images/carer_with_older_person_3.jpg", "notify": "one", "show":"no", "message": "Hey Tom! How are you doing today?"},
-		{"name": "Jenn Chan", "time":"3:15 PM", "image": "http://www.fabulousfaces.com/lib/upload/lrs1594.jpg", "notify": "zero", "show":"yes", "message": "Have you heard about the miniature memory city that is being built in Chula Vista?"},
+		{"name": "John Doe", "time":"4:01 PM", "image": "http://www.northerntrust.hscni.net/images/carer_with_older_person_3.jpg", "notify": "one", "show":"yes", "message": "Hey Tom! How are you doing today?"},
+		{"name": "Jenn Chan", "time":"3:15 PM", "image": "http://www.fabulousfaces.com/lib/upload/lrs1594.jpg", "notify": "zero", "show":"no", "message": "Have you heard about the miniature memory city that is being built in Chula Vista?"},
 		{"name": "Julia Connly", "time":"2:57 PM", "image": "https://homehealth-uk.com/wp/wp-content/uploads/2015/03/seniorhealth_square.jpg", "notify": "one", "message": "How are you doing?"},
 		{"name": "Jane Doe", "time":"9:42 AM", "image": "http://cf.ltkcdn.net/seniors/images/std/136093-425x282--Senior-Citizen-Day-Activities-and-Poems.jpg", "notify": "one", "show":"no", "message": "Do you have time this week to grab coffee?"},
 		{"name": "Ella Phillips", "time":"Tue", "image": "https://cdn.theconversation.com/files/153560/width926/image-20170120-5227-1rz00z2.jpg", "notify": "zero", "show":"no", "message": "My mom is irritated at the moment, do you have advice on how to soothe her?"},
