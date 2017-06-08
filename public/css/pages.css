@@ -14,7 +14,8 @@
 }
 
 html {
-	overflow: scroll;
+	overflow: auto;
+	overflow-y: scroll;
 }
 
 
@@ -26,6 +27,7 @@ html {
 }*/
 
 body {
+	height: 100%;
 	font-family: Georgia;
 }
 
@@ -195,7 +197,7 @@ a:visited {
 
 .messageimg {
 	position: absolute;
-	top: 108%;
+	top: 75%;
 	right: 30%;
 	height: 60px;
 	width: 60px;
@@ -203,7 +205,7 @@ a:visited {
 
 .contactimg {
 	position: absolute;
-	top: 108%;
+	top: 75%;
 	left: 20%;
 	height: 60px;
 	width: 60px;
