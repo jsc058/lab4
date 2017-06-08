@@ -30,6 +30,7 @@ function reply() {
 	$('#replyBox').keypress(function(e) {
 		if (e.which == 13) {
 			sendReply(e);
+			return false;
 		}
 	});
 }
