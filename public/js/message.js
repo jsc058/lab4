@@ -23,6 +23,7 @@ function initializePage() {
 	$('#message').keypress(function(e) {
 		if (e.which == 13) {
 			sendMessage(e);
+			$(this).blur();
 		}
 	});
 	$('.backimg').click(back); /* call back function */
