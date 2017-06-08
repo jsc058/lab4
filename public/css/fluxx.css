@@ -2,6 +2,65 @@
   box-sizing: border-box;
 }
 
+.div {
+    overflow: scroll;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+
+/*body {
+	height:100%;
+	background: url("../images/background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}*/
+
+body {
+	height: 100%;
+	font-family: Georgia;
+}
+.jumbotron {
+	position: relative;
+	background: url("../images/background.jpg");
+	height: 90px;
+	margin-bottom: 15px;
+}
+.backimg {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	padding: 10px;
+	height: 70px;
+	width: 70px;
+}
+
+.homeimg {
+	/*float: right;*/
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	padding: 10px;
+	height: 70px;
+	width: 70px;
+}
+#profileHead {
+	/*height: 50px;*/
+	font-size: 30px;
+	font-weight: 400;
+	top: 15px;
+}
+
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top:0px;
+	left: 0px;
+}
+
 .sections {
   border-style: solid;
   border-width: 0.5px;
